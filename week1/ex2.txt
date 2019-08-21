@@ -1,0 +1,734 @@
+    1  sudo apt install chromium-browser
+    2  sudo apt install python
+    3  chromium
+    4  sudo apt update chromium-browser
+    5  sudo apt update
+    6  sudo apt install chromium-browser
+    7  sudo apt install telegram
+    8  sudo apt update
+    9  sudo apt install ros-melodic-desktop-full
+   10  sudo dpkg --configure -a
+   11  sudo apt install ros-melodic-desktop-full
+   12  sudo rosdep init
+   13  rosdep undate
+   14  rosdep update
+   15  echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+   16  source ~/.bashrc
+   17  sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
+   18  sudo apt-get install ros-melodic-catkin
+   19  sudo apt-get install cmake python-catkin-pkg python-empy python-nose python-setuptools libgtest-dev build-essential
+   20  $ source /opt/ros/melodic/setup.bash
+   21  source /opt/ros/melodic/setup.bash
+   22  mkdir -p ~/catkin_ws/src
+   23  cd ~/catkin_ws/
+   24  catkin_make
+   25  source devel/setup.bash
+   26  echo $ROS_PACKAGE_PATH
+   27  cd
+   28  ros cor
+   29  ros
+   30  printenv | grep ROS
+   31  source /opt/ros/melodic/setup.bash
+   32  mkdir -p ~/catkin_ws/src
+   33  cd ~/catkin_ws/
+   34  catkin_make
+   35  cd
+   36  sudo apt-get install ros-<distro>-ros-tutorials
+   37  sudo apt-get install ros-melodic-ros-tutorials
+   38  rospack find roscpp
+   39  roscd turtle
+   40  roscd turtlesim/
+   41  start
+   42  cd ~/catkin_ws/src
+   43  catkin_create_pkg beginner_tutorials std_msgs rospy roscpp
+   44  //
+   45  ..
+   46  .
+   47  ./
+   48  ..
+   49  ...
+   50  \
+   51  \\
+   52  clear
+   53  св..
+   54  cd..
+   55  cd\
+   56  cd.\
+   57  cd..cd../
+   58  cd../
+   59  cd ..
+   60  catkin_make
+   61  . ~/catkin_ws/devel/setup.bash
+   62  cd
+   63  roscd beginner_tutorials
+   64  cat package.xml
+   65  ros
+   66  clear
+   67  cd
+   68  source /opt/ros/melodic/setup.bash
+   69  ~/catkin_ws/
+   70  cd ~/catkin_ws/
+   71  ls src
+   72  catkin_make
+   73  ls
+   74  cd
+   75  cd .downloads
+   76  cd /download
+   77  cd /downloads/
+   78  cd
+   79  cd /Загрузки
+   80  cd /home
+   81  cd /home/renat/
+   82  cd /home/renat/Загрузки/
+   83  mkdir build
+   84  cd build
+   85  cmake ..
+   86  mkdir build
+   87  cd build
+   88  ..
+   89  cd ../
+   90  cd Общедоступные/
+   91  mkdir build
+   92  cd build
+   93  cmake ..
+   94  mkdir build
+   95  cd build
+   96  cmake ..
+   97  make
+   98  cp ../sample/linux/common/UserConfig.txt bin/
+   99  cd bin
+  100  ./djiosdk-flightcontrol-sample UserConfig.txt
+  101  ros cor
+  102  roscore
+  103  git clone https://github.com/dji-sdk/Onboard-SDK-ROS.git
+  104  cd ../
+  105  catkin_make
+  106  sudo apt-get install ros-indigo-nmea-msgs
+  107  cd
+  108  sudo apt-get install ros-indigo-nmea-msgs
+  109  sudo apt-get install ros-melodic-nmea-msgs
+  110  cd catkin_ws/
+  111  catkin_make
+  112  demo_flight_control.cpp.o
+  113  open
+  114  apt-get install sublime text
+  115  apt get
+  116  aptget
+  117  apt-get install sublime
+  118  cd ../
+  119  ls src
+  120  catkin_make dji_utils
+  121  catkin_make
+  122  catkin_make drone_landing
+  123  mkdir build
+  124  cd build
+  125  cd ../
+  126  catkin_make drone_landing
+  127  cd ../
+  128  catkin_make drone_landing
+  129  ls src
+  130  catkin_make Onboard-SDK-ROS-3.6
+  131  sudo apt-get install ros-melodic-mavros ros-melodic-mavros-extras
+  132  ls
+  133  cd catkin_ws/
+  134  ls
+  135  cd scr
+  136  cd src/
+  137  ls
+  138  catki_make drone_landing
+  139  catkin_make drone_landing
+  140  cd ../
+  141  catkin_make drone_landing
+  142  cmake ..
+  143  ls
+  144  cd ~
+  145  git clone https://github.com/dji-sdk/Onboard-SDK
+  146  cd catkin_ws/src/
+  147  cd ../
+  148  ls
+  149  catkin_make drone_landing
+  150  catkin_make geodetic_utils
+  151  cd ~
+  152  wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
+  153  ./install_geographiclib_datasets.sh
+  154  sudo wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
+  155  ls
+  156  cd catkin_ws/
+  157  ls
+  158  catkin_make drone_landing
+  159  catkin build drone_landing
+  160  cd src
+  161  git clone git@github.com:catkin/catkin_simple.git
+  162  cd ../
+  163  catkin_make
+  164  catkin_make catkin_simple
+  165  catkin_make drone_landing
+  166  catkin_make
+  167  cd src/
+  168  git clone https://github.com/dji-sdk/Onboard-SDK-ROS.git
+  169  cd ../
+  170  catkin_make
+  171  ls
+  172  cd src
+  173  ls
+  174  catkin_make Onboard-SDK-ROS
+  175  cd ../
+  176  catkin_make Onboard-SDK-ROS
+  177  catkin_make
+  178  ls
+  179  cd src
+  180  ls
+  181  cmake Onboard-SDK-ROS
+  182  catkin_make Onboard-SDK-ROS
+  183  cd ../
+  184  catkin_make Onboard-SDK-ROS
+  185  cd ~
+  186  git clone https://github.com/dji-sdk/Onboard-SDK
+  187  cd (dji_sdk_directory)
+  188  mkdir build
+  189  cd build
+  190  cmake ..
+  191  make djiosdk-core
+  192  mkdir build
+  193  cd~
+  194  cd ~
+  195  mkdir build
+  196  cd build
+  197  cmake ..
+  198  --help
+  199  cmake --help
+  200  cmake Onboard-SDK-3.7
+  201  cmake /home/renat/Onboard-SDK-3.7/
+  202  make
+  203  cp /home/renat/Onboard-SDK-3.7/sample/linux/common/UserConfig.txt bin/
+  204  cd ~
+  205  ls
+  206  cd catkin_ws
+  207  catkin_make
+  208  cd build
+  209  cmake /home/renat/Onboard-SDK-3.7/
+  210  cd ../
+  211  catkin_make
+  212  cmake /home/renat/catkin_ws/Onboard-SDK-3.7/
+  213  cmake Onboard-SDK-3.7
+  214  make
+  215  cmake Onboard-SDK-ROS
+  216  cd ../
+  217  catkin_make Onboard-SDK-ROS
+  218  catkin_make Ondoard-SDK-ROS
+  219  cd src
+  220  catkin_make Onboard-SDK-ROS
+  221  cd ../
+  222  catkin_make Onboard-SDK-ROS
+  223  catkin_make dji_sdk
+  224  catkin_make dji_sdk_node
+  225  catkin_make
+  226  ld --help
+  227  ld -ldcam
+  228  sudo make install
+  229  cd usr
+  230  cd /usr
+  231  ls
+  232  cd bin
+  233  ls
+  234  sudo apt-get install ldcam
+  235  sudo apt-get install -ldcam
+  236  sudo make install ldcam
+  237  locate -ldcam
+  238  locate ldcam
+  239  sudo apt-get install dcam
+  240  sudo make install
+  241  make
+  242  catkin_make
+  243  cd ../
+  244  catkin_make
+  245  make install
+  246  sudo make install
+  247  make
+  248  cd ~
+  249  cd catkin_ws/
+  250  catkin_make
+  251  ls
+  252  cd src/
+  253  cd drone_landing/
+  254  ls
+  255  cd dji_sdk_read_cam/
+  256  touch CTKIN_IGNORE
+  257  cd ~/catkin_ws/
+  258  catkin_make
+  259  touch CATKIN_IGNORE
+  260  touch CA CATKIN_IGNORE
+  261  cd ~
+  262  cd catkin_ws/
+  263  catkin_make
+  264  catkin_make dji_sdk_generate_messages
+  265  catkin_make
+  266  cd~
+  267  cd ~
+  268  sudo apt-get install ros-melodic-ar-track-alvar
+  269  sudo apt-get update ros-melodic-ar-track-alvar
+  270  sudo apt-get update
+  271  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys F42ED6FBAB17C654
+  272  sudo apt-get update
+  273  sudo apt-get install ros-melodic-ar-track-alvar
+  274  rosrun ar_track_alvar createMarker
+  275  ros -help
+  276  sudo apt-get update
+  277  sudo apt-get dist-upgrade
+  278  mkdir -p ~/ros_workspace/src
+  279  cd ~/ros_workspace/src
+  280  catkin_init_workspace 
+  281  cd ~/ros_workspace
+  282  catkin_make
+  283  cd src
+  284  catkin_create_pkg web_cam roscpp opencv stdmsg
+  285  ls
+  286  cd web_cam/
+  287  ls
+  288  cd src
+  289  ls
+  290  touch example_pkg_code.cpp
+  291  cd ~ros_workspace
+  292  cd ~ros_workspace/
+  293  cd ~ ros_workspace/
+  294  cd ~/ros_workspace
+  295  catkin_make
+  296  catkin_create_pkg package_name [required packages]
+  297  cd
+  298  catkin_create_pkg web_cam roscpp
+  299  ls
+  300  mkdir -p ~/ros_workspace/src
+  301  cd ~/ros_workspace/src
+  302  catkin_init_workspace 
+  303  cd ~/ros_workspace
+  304  catkin_make
+  305  cd src
+  306  catkin_create_pkg web_cam roscpp
+  307  ls
+  308  cd web_cam/
+  309  ls
+  310  cd src
+  311  ls
+  312  cd ../
+  313  cd ../../
+  314  catkin_make
+  315  cd src
+  316  catkin_create_pkg web_cam_node roscpp
+  317  cd
+  318  cd ros_workspace/
+  319  catkin_make
+  320  touch src
+  321  cd src
+  322  ls
+  323  cd src
+  324  ls
+  325  cd /src
+  326  mkdir src
+  327  cd src
+  328  catkin_init_workspace 
+  329  cd ../
+  330  catkin_make
+  331  cd src
+  332  catkin_create_pkg web_cam_node roscpp
+  333  cd ../
+  334  catkin_make
+  335  cd
+  336  sudo apt-get install ros-melodic-
+  337  sudo apt-get install ros-melodic-vision-opencv
+  338  ls
+  339  ./install_opencv2_ubuntu.sh
+  340  cd ros_workspace/
+  341  catkin_make
+  342  cd
+  343  sudo apt-get install ros-me
+  344  sudo apt-get install ros-melodic-std_msgs
+  345  cd ros_workspace/
+  346  catkin_make
+  347  catkin_make std_msgs
+  348  catkin_make
+  349  cd
+  350  sudo apt-get install ros-melodic-msg
+  351  rosdep install opencv2
+  352  sudo apt-get install ros-melodic-cv-bridge
+  353  cd ros_workspace/
+  354  catkin_make
+  355  catkin_make opencv-2.4.13.5
+  356  catkin_make
+  357  cd
+  358  cd ros_workspace/
+  359  catkin_make
+  360  cd
+  361  sudo apt-get install opencv-data
+  362  git clone https://github.com/opencv/opencv.git
+  363  cd opencv
+  364  git checkout 3.3.1
+  365  cd ..
+  366  git clone https://github.com/opencv/opencv_contrib.git
+  367  cd opencv_contrib
+  368  git checkout 3.3.1
+  369  cd ..
+  370  cd ros_workspace/
+  371  catkin_make
+  372  sudo apt install ros-melodic-cv-bridge
+  373  cd opencv
+  374  mkdir build
+  375  cd build
+  376  cmake -D CMAKE_BUILD_TYPE=RELEASE \
+  377  CD
+  378  cd
+  379  nproc
+  380  make -j4
+  381  sudo make install
+  382  make
+  383  make -j4
+  384  sudo make install
+  385  make -j4
+  386  sudo make install
+  387  sudo sh -c 'echo "/usr/local/lib" >> /etc/ld.so.conf.d/opencv.conf'
+  388  sudo ldconfig
+  389  make -j4
+  390  sudo make install
+  391  sudo sh -c 'echo "/usr/local/lib" >> /etc/ld.so.conf.d/opencv.conf'
+  392  sudo ldconfig
+  393  make -j4
+  394  cd opencv/build
+  395  make -j4
+  396  sudo make install
+  397  sudo sh -c 'echo "/usr/local/lib" >> /etc/ld.so.conf.d/opencv.conf'
+  398  sudo ldconfig
+  399  py vers
+  400  puthon vers
+  401  python ver
+  402  python help
+  403  python -help
+  404  find /usr/local/lib/ -type f -name "cv2*.so"
+  405  cd ~/.virtualenvs/facecourse-py2/lib/python2.7/site-packages
+  406  ln -s /usr/local/lib/python2.7/dist-packages/cv2.so cv2.so
+  407  cd ~/.virtualenvs/facecourse-py2/lib/python2.7/site-packages
+  408  cd ~/.virtualenvs/facecourse-py2/lib/python2.7/dist-packages
+  409  ln -s /usr/local/lib/python2.7/dist-packages/cv2.so cv2.so
+  410  cd ~/.virtualenvs/facecourse-py2/lib/python2.7/site-packages
+  411  nproc
+  412  sudo ldconfig
+  413  cd
+  414  sudo apt upadte
+  415  sudo apt update
+  416  sudo apt install python3-opencv
+  417  python3 -c "\
+  418  import cv2
+  419  print(cv2._version_)"
+  420  python3 -c "\
+  421  import cv2
+  422  print(cv2.__version__)"
+  423  sudo apt install build-essential cmake git pkg-config libgtk-3-dev
+  424  sudo apt install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev
+  425  sudo apt install libjpeg-dev libpng-dev libtiff-dev gfortran openexr
+  426  sudo apt install python3-dev python3-numpy libtbb2 libtbb-dev libdc1394-22-dev
+  427  mkdir ~/opencv_build && cd ~/opencv_build
+  428  git clone https://github.com/opencv/opencv.git
+  429  git clone https://github.com/opencv/opencv_contrib.git
+  430  cd ~/opencv_build/opencv
+  431  mkdir build && cd build
+  432  cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+  433  make -j4
+  434  nproc
+  435  make -j4
+  436  cmake -D CMAKE_BUILD_TYPE=RELEASE     -D CMAKE_INSTALL_PREFIX=/usr/local     -D INSTALL_C_EXAMPLES=ON     -D INSTALL_PYTHON_EXAMPLES=ON     -D OPENCV_EXTRA_MODULES_PATH=~/opencv_build/opencv_contrib/modules     -D BUILD_EXAMPLES=ON ..
+  437  make -j4
+  438  cd
+  439  sudo apt-get install libopecv-dev python-opencv
+  440  python3 --version
+  441  sudo apt-get update
+  442  sudo apt-get upgrade
+  443  sudo apt-get install build-essential cmake unzip pkg-config
+  444  sudo apt-get install libjpeg-dev libpng-dev libtiff-dev
+  445  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+  446  sudo apt-get install libgtk-3-dev
+  447  sudo apt-get install libatlas-base-dev gfortran
+  448  sudo apt-get install python3-dev
+  449  cd ~
+  450  wget -O opencv.zip https://github.com/opencv/opencv/archive/3.4.4.zip
+  451  wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/3.4.4.zip
+  452  unzip opencv.zip
+  453  unzip opencv_contrib.zip
+  454  mv opencv-3.4.4 opencv
+  455  opencv_contrib-3.4.4 opencv_contrib
+  456  mv opencv_contrib-3.4.4 opencv_contrib
+  457  wget https://bootstrap.pypa.io/get-pip.py
+  458  sudo python3 get-pip.py
+  459  sudo pip install virtualenv virtualenvwrapper
+  460  sudo rm -rf ~/get-pip.py ~/.cache/pip
+  461  export WORKON_HOME=$HOME/.virtualenvs
+  462  export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+  463  source /usr/local/bin/virtualenvwrapper.sh
+  464  source ~/.bashrc
+  465  mkvirtualenv cv -p python3
+  466  workon cv
+  467  pip install numpy
+  468  workon cv
+  469  cd ~/opencv
+  470  mkdir build
+  471  cd build
+  472  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+  473  make -j4
+  474  sudo make install
+  475  sudo ldconfig
+  476  pkg-config --modversion opencv
+  477  ls /usr/local/python/cv2/python-3.6
+  478  cv2.cpython-36m-x86_64-linux-gnu.so
+  479  ls
+  480  ls /usr/local/python/cv2
+  481  ls /usr/local/python
+  482  ls /usr/local/lib
+  483  ls /usr/local/lib/python3.6
+  484  ls /usr/local/lib/python3.6/dist-packages/
+  485  pkg-config --modversion opencv
+  486  cd /usr/local/python/cv2/python-3.6
+  487  ls /usr/local/lib/python3.6/site-packages
+  488  ubuntu version
+  489  sudo make install
+  490  pkg-config --modversion opencv4
+  491  pkg-config --modversion opencv2
+  492  pkg-config --modversion opencv
+  493  cd ros_workspace/
+  494  rosrun web_cam_node
+  495  catkin_make
+  496  rosrun web_cam_node
+  497  rosrun
+  498  sudo apt-get install ros-melodic-cv-camera
+  499  rosrun cv_camera
+  500  rosrun cv_camera cv_camera_node 
+  501  roslaunch ar_track_alvar pr2_indiv.launch
+  502  sudo apt-get install ros-indigo-ar-track-alvar
+  503  sudo apt-get install ros-melodic-ar-track-alvar
+  504  roslaunch ar_track_alvar pr2_indiv.launch
+  505  rosrun cv_camera
+  506  rosrun cv_camera cv_camera_node
+  507  cd ros_workspace/
+  508  catkin_make
+  509  git clone https://github.com/atomoclast/ar_tag_toolbox
+  510  ls
+  511  catkin_make
+  512  source devel/setup.bash
+  513  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+  514  sudo apt-get install xacro
+  515  sudo apt-get install ros-melodic-xacro
+  516  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+  517  sudo apt-get install ros-melodic-desctop-full
+  518  sudo apt-get install ros-melodic-desctopfull
+  519  sudo apt-get install ros-melodic-desktop-full
+  520  $ roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+  521  roscore
+  522  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+  523  cd ros_workspace/
+  524  source devel/setup.bash
+  525  rosrun web_cam_node web_cam_node_node
+  526  roscore
+  527  roslaunch ar_track_alvar pr2_indiv.launch
+  528  roslaunch ar_track_alvar pr2_bundle.launch
+  529  rosrun web_cam_node web_cam_node_node
+  530  roslaunch ar_tag_toolbox ar_track_usb_cam.launch marker_size:=5
+  531  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+  532  cd ros
+  533  cd ros_workspace/
+  534  source devel/setup.bash
+  535  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+  536  $ roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+  537  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+  538  cd ros_workspace/
+  539  $ roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+  540  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+  541  source devel/setup.bash
+  542  roslaunch ar_tag_toolbox usb_cam.launch cam_id 0
+  543  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+  544  roslaunch ar_tag_toolbox ar_track_usb_cam.launch marker_size:=5
+  545  roslaunch ar_tag_toolbox
+  546  roslaunch 
+  547  roslaunch ar_tag_toolbox
+  548  sudo updatedb
+  549  roslaunch ar_tag_toolbox ar_track_usb_cam
+  550  roslaunch ar_tag_toolbox ar_track_usb_cam.launch
+  551  rosrun usb_cam_node usb_cam_node_node
+  552  rosrun usb_cam usb_cam_node
+  553  sudo apt-get install ros-melodic-usb-cam
+  554  rosrun usb_cam usb_cam_node
+  555  gedit .bashrc
+  556  sudo apt-get install ros-melodic-rviz
+  557  cd ros_workspace/
+  558  catkin_make ar_tag_toolbox
+  559  roslaunch usb_cam_ar_track.launch
+  560  source /setup.bash
+  561  source devel/setup.bash
+  562  roslaunch usb_cam_ar_track.launch
+  563  touch usb_cam_ar_track.launch
+  564  rosrun tf2_ros static_transform_publisher 0 0 0 0 0 0 1 /map /header_cam
+  565  rqt_image_view
+  566  rosrun rviz rviz
+  567  roslaunch ar_track_alvar pr2_indiv.launch
+  568  cd ros_workspace/
+  569  catkin_make ar_tag_toolbox
+  570  source devel/bash.sh
+  571  source devel/setup.bash
+  572  roslaunch ar_tag_toolbox ar_track_usb_cam.launch 
+  573  roslaunch ar_tag_toolbox ar_track_usb_cam.launch
+  574  roslaunch ar_tag_toolbox ar_track_usb_cam.launch marker_size:=5
+  575  cd
+  576  roslaunch ar_track_alvar pr2_bundle.launch
+  577  roslaunch rviz rviz
+  578  rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 image:=/my_camera/image camera:=/my_camera
+  579  rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 image:=/usb_cam/image camera:=/usb_cam
+  580  sudo apt-get install python
+  581  rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 image:=/usb_cam/image camera:=/usb_cam
+  582  rosrun camera_calibration cameracheck.py --size 8x6 monocular:=/forearm image:=image_rect
+  583  rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 image:=/camera/image_raw camera:=/camera
+  584  rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 image:=/usb_cam/image_raw camera:=/usb_cam
+  585  roslaunch ar_tag_toolbox ar_track_usb_cam.launch
+  586  rostopic echo /ar_pose_marker
+  587  rtopic echo /ar_pose_markerch
+  588  rostopic echo /ar_pose_marker
+  589  roslaunch rviz rviz
+  590  rosmake rviz
+  591  rosrun rviz rviz
+  592  rostopic echo /ar_pose_marker
+  593  roslaunch ar_tag_toolbox usb_cam.launch cam_id 
+  594  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+  595  rosrun usb_cam usb_cam_node
+  596  roscore
+  597  rosrun usb_cam usb_cam_node
+  598  roslaunch ar_tag_toolbox usb_cam.launch cam_id:=0
+  599  roscore
+  600  roslaunch rviz rviz
+  601  roscore
+  602  rosmake ar_tag_toolbox
+  603  cd ros_workspace/
+  604  rosmake ar_tag_toolbox
+  605  make ar_tag_toolbox
+  606  rosmake
+  607  roslaunch usb_cam.launch
+  608  source devel/setup.bash
+  609  roslaunch usb_cam.launch
+  610  sudo updatedb
+  611  roslaunch usb_cam.launch
+  612  catkin_make ar_tag_toolbox
+  613  roslaunch usb_cam.launch
+  614  roslaunch ar_tag_toolbox usb_cam.launch
+  615  rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 image:=/my_camera/image camera:=/my_camera
+  616  roslaunch ar_tag_toolbox usb_cam.launch
+  617  кщысщку
+  618  roscore
+  619  rosdep install camera_calibration
+  620  rostopic ;ist
+  621  rostopic list
+  622  rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.108 image:=/camera/image_raw camera:=/camera
+  623  roscore
+  624  rosrun usb_cam usb_cam_node 
+  625  rtopic echo /ar_pose_markerch
+  626  rostopic echo /ar_pose_markerch
+  627  rviz
+  628  rviz
+  629  roslaunch ar_tag_toolbox ar_follower.launch 
+  630  roslaunch ar_tag_toolbox usb_cam_ar_track.launch 
+  631  rosrun tf2_ros static_transform_publisher 0 0 0 0 0 0 1 /map /header_cam
+  632  rviz
+  633  rosrun tf static_transform_publisher 0.0 0.0 0.0 0.0 0.0 0.0 map my_frame 100
+  634  rosrun tf static_transform_publisher 0.0 0.0 0.0 0.0 0.0 0.0 map usb_cam 100
+  635  roslaunch ar_tag_toolbox ar_track_usb_cam.launch 
+  636  roslaunch usb
+  637  roslaunch usb_cam.launch
+  638  roslaunch usb_cam usb_cam_ar_track.launch 
+  639  roslaunch usb_cam_ar_track.launch
+  640  usb_cam_ar_track.launch
+  641  cd ros_workspace/
+  642  catkin_make ar_tag_toolbox
+  643  roslaunch usb_cam_ar_track.launch
+  644  roslaunch ar_track_usb_cam.launch
+  645  roslaunch usb_cam_ar_track.launch
+  646  roslaunch usb_cam.launch
+  647  source devel/bash
+  648  source devel/setup.bash
+  649  roslaunch usb_cam.launch
+  650  catkin_make ar_tag_toolbox
+  651  source devel/setup.bash
+  652  roslaunch usb_cam.launch
+  653  source devel/setupsh
+  654  source devel/setup.sh
+  655  roslaunch usb_cam.launch
+  656  roslaunch ar_tag_toolbox usb_cam.launch
+  657  rostopic echo ar_tag_toolbox
+  658  rostopic echo ar_track_usb_cam
+  659  rostopic echo /ar_pose_marker /
+  660  rostopic echo /ar_pose_marker
+  661  sudo ifconfig
+  662  sudo apt install net-tools
+  663  sudo ifconfig
+  664  mkdir ~/week1
+  665  ls
+  666  cd week1/
+  667  man man
+  668  whoami
+  669  man whoami
+  670  cd
+  671  grep gcc /usr/bin
+  672  grep gcc ls /usr/bin
+  673  ls /usr/bin
+  674  cd /usr/bin
+  675  ls home/
+  676  ls
+  677  ls usr/
+  678  cd
+  679  pwd
+  680  ls /home/renat
+  681  cd usr/bin
+  682  cd usr/bin/
+  683  cd /usr/bin/
+  684  -h
+  685  --h
+  686  help
+  687  cd 
+  688  ls
+  689  cd week1/
+  690  touch list.txt
+  691  ls
+  692  cd
+  693  cd /usr/bin
+  694  ls > /home/renat/week1/list.txt
+  695  cd
+  696  grep gcc /week1/list.txt
+  697  grep gcc week1/list.txt
+  698  grep gcc week1/list.txt -r
+  699  cd week1/
+  700  ls
+  701  touch result.txt
+  702  ls
+  703  cd
+  704  ls > /home/renat/week1/result.txt | grep gcc /home/renat/week1/list.txt | sort -r
+  705  grep gcc /home/renat/week1/list.txt | sort -r > /home/renat/week1/result.txt
+  706  cd week1/
+  707  touch ex1.txt
+  708  cpy result.txt ex1.txt
+  709  cp result.txt ex1.txt 
+  710  ls ex1.txt
+  711  cat ex1.txt
+  712  cd 
+  713  cd /usr/bin
+  714  ls
+  715  cd
+  716  history 
+  717  cd week1/
+  718  touch ex2.txt
+  719  cd
+  720  cd week1/
+  721  history > ex2.txt
+  722  cat ex2.txt
+  723  cd
+  724  ver
+  725  version
+  726  lsb_release 
+  727  lsb_release -a
+  728  cd week1/
+  729  touch ex3.sh
+  730  sh ex3.sh
+  731  gedit main.c
+  732  history > ex2.txt | tail
+  733  cat ex2.txt
+  734  history > ex2.txt | tail -n 50
