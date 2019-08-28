@@ -58,17 +58,17 @@ int main(int argc, char* argv[]){
     }
     printf("\n");
 
-    ladder(n);
-    printf("\n");
+//     ladder(n);
+//     printf("\n");
 
-    valley(n);
-    printf("\n");
+//     valley(n);
+//     printf("\n");
 
-    bar(n);
-    printf("\n");
+//     bar(n);
+//     printf("\n");
 
-    // wave(n);
-    printf("\n");
+//     wave(n);
+//     printf("\n");
 
     return 0;
 }
