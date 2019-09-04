@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-void swat(int *a, int *b){
+void swap(int *a, int *b){
 	int n = *a;
 	*a = *b;
 	*b = n;
@@ -20,7 +20,7 @@ int main(){
 
 	printf("Before swap: %d %d\n", a, b);
 
-    swat(&a, &b);
+    swap(&a, &b);
 
     printf("After swap: %d %d\n", a, b);
     
