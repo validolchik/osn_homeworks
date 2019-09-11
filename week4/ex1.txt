@@ -1,0 +1,1 @@
+When a process is running, the kernel schedules its runtime - assign a PID to it, and this information is stored in kernel address space, which filling consequently. That why the PIDs going one after another, consequently.

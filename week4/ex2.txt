@@ -1,0 +1,19 @@
+8 processes.
+This is the part of the the pstree call output:
+
+bash───ex2.out─┬─ex2.out─┬─ex2.out───ex2.out
+               │         └─ex2.out
+               │─ex2.out───ex2.out
+               └─ex2.out
+
+
+To explain what is happenning I modified the picture, giving each process unique number:
+
+bash───ex2.out(1)─┬─ex2.out(2)─┬─ex2.out(3)───ex2.out(5)
+                  │            └─ex2.out(4)
+                  │─ex2.out(6)───ex2.out(7)
+                  └─ex2.out(8)
+
+after first iteration the parent (1) creates child process (2) (2 processes in total)
+after second iteration: (1) creates (6), (2) creates (3) (4 processes in total)
+after third iteration: (1) creates (8), (2) creates (4), (3) creates (5), (6) creates (7) (8 processes in total)
