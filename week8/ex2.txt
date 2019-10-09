@@ -28,5 +28,5 @@ procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
  0  0 393996 13263740  59628 924252    0    0     0   132  162  441  0  0 99  0  0
 
 here we can clearly see that amount of free memory decreasing during program execution,
-and the swaps in begins (6, 4, 56)
+and the swaps-in (si) begins (6, 4, 56)
 my program ran 20 seconds and allocated 600 MB each iteration.
