@@ -1,0 +1,3 @@
+Page are 8 KB => offset should occupy 13 bit (2^12 = 8096 byte). 
+Remaining 3 bit (16-13=3) for page number in page table.
+=> 2^3= 8 entries in page table 

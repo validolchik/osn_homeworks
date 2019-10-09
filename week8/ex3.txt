@@ -1,0 +1,6 @@
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                                     
+ 3402 renat     20   0 10,551g 0,010t   1156 S  15,6 67,9   0:04.18 a.out                                       
+ 1640 renat     20   0  728836  95256  79752 S   5,6  0,6   0:59.57 Xorg                                        
+ 2148 renat     20   0  801080  24924  15076 S   3,3  0,2   0:09.65 gnome-terminal-  
+
+program allocated at most 70% of memory

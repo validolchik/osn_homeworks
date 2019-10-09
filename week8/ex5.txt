@@ -1,0 +1,6 @@
+Virtual address used by a user programs programs.
+Physical address is the address in the hardware.
+They can be the same, can be not.
+In the second case there is special hardware block near CPU,
+called Memory Managment Unit, which work is map from virtual address to
+physical.
