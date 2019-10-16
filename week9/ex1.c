@@ -22,7 +22,9 @@ int main(int argc, char const *argv[])
 	printf("Print the number of pages\n");
 	scanf("%d", &num_of_pages);
 
-	file = fopen("input2.txt", "r");
+	file = fopen("input1.txt", "r");
+	// for the first task input1.txt
+	// for the second input2.txt
 
 	page* pages = calloc(num_of_pages, sizeof(page));
 
