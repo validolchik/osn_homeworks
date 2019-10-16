@@ -34,12 +34,12 @@ int main(int argc, char const *argv[])
 	}
 
 	while(fscanf(file, "%d", &cur_page) != EOF){
-		for(int i = 0; i < num_of_pages; i++){
-			printf("i = %d id = %d", i, pages[i].id);
-			char buffer[64];
-			snprintf (buffer, sizeof(buffer), "%d", pages[i].counter);
-			printf(" %s\n", buffer);
-		}
+// 		for(int i = 0; i < num_of_pages; i++){
+// 			printf("i = %d id = %d", i, pages[i].id);
+// 			char buffer[64];
+// 			snprintf (buffer, sizeof(buffer), "%d", pages[i].counter);
+// 			printf(" %s\n", buffer);
+// 		}
 		int candidate = -1;
 		int least = pages[0].counter;
 		for(int i = 0; i < num_of_pages; i++){
