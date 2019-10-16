@@ -1,0 +1,16 @@
+initial sequence, which I constructed:
+1 2 3 4 5 11 6 10 9 12 2 5 16 19 2 1 3 4 8 7 
+ratio = 0.428571
+
+the number of page frames is 5
+
+to increase ratio:
+1 2 3 4 5 11 4 10 11 3 10 5 16 9 5 1 3 4 8 7
+ratio = 0.538462
+
+to decrease:
+1 2 3 4 5 11 6 10 9 12 13 17 10 19 2 1 3 4 8 7
+ratio = 0.250000
+
+for increasing the ratio we can decrease number of unique page references and decrease the time interval between referencing to the same page.
+for decreasing vice versa: increase number of unique page references and increase time interval between them.
