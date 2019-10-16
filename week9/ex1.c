@@ -80,7 +80,7 @@ int main(int argc, char const *argv[])
 			pages[candidate].counter |= 1 << (NUMBER_BITS - 1);
 		}
 		candidate = -1;
-		printf("\n");
+// 		printf("\n");
 	}
 
 	printf("hit = %f miss = %f ratio = %f\n", hit, miss, hit/miss);
