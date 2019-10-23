@@ -1,0 +1,29 @@
+After chmod a-x _ex3.txt:
+-rw-r--r-- 3 renat renat   0 окт 23 18:33 _ex1_1.txt
+-rw-r--r-- 3 renat renat   0 окт 23 18:33 _ex1_2.txt
+-rw-r--r-- 3 renat renat   0 окт 23 18:33 _ex1.txt
+-rw-r--r-- 1 renat renat  56 окт 23 18:34 ex1.txt
+-rw-r--r-- 1 renat renat 293 окт 23 18:53 ex2.txt
+-rw-r--r-- 1 renat renat   0 окт 23 18:54 _ex3.txt
+
+After chmod u+rwx,o+rwx _ex3.txt:
+-rw-r--r-- 3 renat renat   0 окт 23 18:33 _ex1_1.txt
+-rw-r--r-- 3 renat renat   0 окт 23 18:33 _ex1_2.txt
+-rw-r--r-- 3 renat renat   0 окт 23 18:33 _ex1.txt
+-rw-r--r-- 1 renat renat  56 окт 23 18:34 ex1.txt
+-rw-r--r-- 1 renat renat 293 окт 23 18:53 ex2.txt
+-rwxr--rwx 1 renat renat   0 окт 23 18:54 _ex3.txt
+
+After Make group permissions equal to user permissions (chmod -R g=u ~/homeworks/week10/_ex3.txt):
+-rw-r--r-- 3 renat renat   0 окт 23 18:33 _ex1_1.txt
+-rw-r--r-- 3 renat renat   0 окт 23 18:33 _ex1_2.txt
+-rw-r--r-- 3 renat renat   0 окт 23 18:33 _ex1.txt
+-rw-r--r-- 1 renat renat  56 окт 23 18:34 ex1.txt
+-rw-r--r-- 1 renat renat 293 окт 23 18:53 ex2.txt
+-rwxrwxrwx 1 renat renat   0 окт 23 18:54 _ex3.txt
+-rw-r--r-- 1 renat renat   0 окт 23 19:02 ex3.txt
+
+rwx in octal mode: r is 4, w is 2 and x is 1;
+660 --> 6 = 4+2 = rw- for user; 6 = 4+2 = rw- for group; 0 (no permissions) for others;
+775 --> 7 = 4 + 2 + 1 = rwx for user; 7 = 4 + 2 + 1 = rwx for group; 5 = 4 + 1 = r-x for others;
+777 --> rwx for all;

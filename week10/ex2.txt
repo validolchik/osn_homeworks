@@ -1,0 +1,4 @@
+Traces to file.txt in ~/week01 directory:
+/home/renat/homeworks/week10/_ex2.txt
+/home/renat/homeworks/week01/file.txt
+After executing $ find <path> –inum inodenumber -exec rm {} \; output is empty => all links to this file deleted => the file itself deleted and all links to it also deleted
