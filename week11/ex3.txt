@@ -1,0 +1,6 @@
+stdout stream is line buffered by default.
+so when \n arrives the buffer flushes.
+
+in first case the buffer contain only "hello" string without \n so both parent and child processes will have "hello" in their buffers. Then they both append "\n" and buffer flushes, string "hello\n" printed twice
+
+in second case the buffer flushed before fork call, so only parent process will print string "hello\n". after fork buffer flushed, because parent printed "\n", so two processes after fork will print "\n" producing output which we observed.
