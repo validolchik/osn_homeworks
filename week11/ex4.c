@@ -58,5 +58,7 @@ int main(int argc, char const *argv[]){
 
 	/* this copies the input file to the output file */
 	memcpy (dst, src, statbuf.st_size);
+	close(fdin);
+	close(fdout);
 	return 0;
 }
