@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <sys/stat.h>
 
-int main(void) {
+int main() {
 	int myFile = open("ex1.txt", O_RDWR, (mode_t)0600);
 	const char *text = "This is a nice day";
 
