@@ -1,0 +1,66 @@
+big.txt - 6.5 MB
+without sync default buffer size
+real	0m0.022s
+user	0m0.004s
+sys	0m0.018s
+
+without sync buf size 100 byte
+real	0m0.161s
+user	0m0.045s
+sys	0m0.117s
+
+without sync buf size 10 byte
+real	0m1.462s
+user	0m0.345s
+sys	0m1.117s
+
+with sync default buffer size
+real	0m0.034s
+user	0m0.004s
+sys	0m0.034s
+
+with sync buf size 100 byte
+real	0m0.217s
+user	0m0.051s
+sys	0m0.166s
+
+with sync buf size 10 byte
+real	0m1.497s
+user	0m0.368s
+sys	0m1.128s
+
+------------------------------------
+
+no_so_big.txt - 166,3 kB
+without sync default buf size
+real	0m0.004s
+user	0m0.001s
+sys	0m0.004s
+
+without sync buf size 100 bytes
+real	0m0.015s
+user	0m0.005s
+sys	0m0.010s
+
+without sync buf size 10 bytes
+real	0m0.061s
+user	0m0.012s
+sys	0m0.049s
+
+with sync default buf size
+real	0m0.005s
+user	0m0.001s
+sys	0m0.005s
+
+with sync buf size 100 bytes
+real	0m0.011s
+user	0m0.003s
+sys	0m0.007s
+
+with sync buf size 10 bytes
+real	0m0.052s
+user	0m0.020s
+sys	0m0.032s
+
+the lower buffer - the lower speed of copying, because small buffer fills up faster than big buffer, so more operations needed to copy the same file.
+sync make copying slower, because every write call data must go to disk directly, disk access is slow.
