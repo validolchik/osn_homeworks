@@ -1,3 +1,0 @@
-process 1 deadlocked
-process 2 deadlocked
-process 4 deadlocked
