@@ -1,0 +1,11 @@
+First, lets discuss deadlock avoidance. Theory says that it is essentially impossible, because the information about future requests is unknown for us in certain points of time.
+Cases when better than others: we can know the future requests
+
+Cases, when recovery is better: we can preemp processes without penalties, programs can make checkpoints to roll back when needed resource is given, and when killing not essential process we help to decide deadlock
+
+Cases, when prevention is better: 
+1. we can make our system in such a way that the resources will be given to process when absolutely necessary(attacking mutual-exclusion)
+2. programs take all resources needed at once, not asking for the part of it(attacking hold and wait condition)
+3. we can virtualise all resources needed to processes
+4. have a rule saying that a process is entitled only to a single
+resource at any moment, or provide a global resource numbering which will allow to use method when process can request only resources with numbers bigger it's own resources has.
